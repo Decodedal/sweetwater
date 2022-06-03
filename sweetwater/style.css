@@ -4,3 +4,18 @@
 .nav-container{
     text-align: center;
 }
+
+.nav2 li{
+    list-style: none;
+    width: 15vw;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px gray dotted;
+    border-bottom: 1px gray dotted;
+}
+.nav2 li:hover{
+    background-color: gray;
+    color: blue;
+}
