@@ -19,3 +19,39 @@
     background-color: gray;
     color: blue;
 }
+.deals{
+    display: flex;
+    justify-content: center;
+}
+#drum{
+    width: 600px;
+    height:220px;
+}
+#sale{
+    width:250px;
+    height: 220px;
+}
+h2{
+    text-align: center;
+    margin: 2rem;
+}
+
+.boxs div{
+    border: 1px solid lightgray;
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+}
+h6{
+    color: blue;
+}
+.boxs div:hover{
+    border: 1px solid blue;
+    transform: scale(1.2);
+}
